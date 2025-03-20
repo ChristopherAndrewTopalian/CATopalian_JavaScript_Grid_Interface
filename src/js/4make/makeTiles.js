@@ -2,18 +2,11 @@
 
 function makeTiles(whichArray, rows, columns)
 {
-    let dedication = ce('div');
-    dedication.className = "dedication";
-    dedication.innerHTML = 'Dedicated to God the Father';
-    dedication.id = 'dedication';
-    ba(dedication);
-
-    //-//
-
-    let theTitle = ce("div");
+    let theTitle = ce("a");
+    theTitle.href = 'https://github.com/ChristopherAndrewTopalian/CATopalian_JavaScript_Grid_Interface';
     theTitle.className = "theTitleStyle";
     theTitle.style.textAlign = 'center';
-    theTitle.textContent = 'College of Scripting Music & Science';
+    theTitle.textContent = 'CATopalian JavaScript Grid Interface';
     ba(theTitle);
 
     //-//

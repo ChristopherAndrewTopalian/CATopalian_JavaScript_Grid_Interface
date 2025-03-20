@@ -5,21 +5,8 @@ body
     background-color: rgb(50, 50, 50);
 }
 
-.dedication
+.gridContainerStyle
 {
-    position: relative;
-    padding-bottom: 10px;
-    font-family: arial;
-    font-size: 20px;
-    color: rgb(100, 100, 100);
-    display: flex;
-    flex-direction: column;
-    /* background-size: cover; */
-    align-items: center;
-    font-weight: bold;
-}
-
-.gridContainerStyle {
     padding: 10px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -27,7 +14,8 @@ body
     background-color: rgb(40, 40, 40);
 }
 
-.gridItemStyle {
+.gridItemStyle
+{
     width: 175px;
     height: 175px;
     padding: 5px;
@@ -53,7 +41,6 @@ body
     color: rgb(255, 255, 255);
     display: flex;
     flex-direction: column;
-    /* background-size: cover; */
     align-items: center;
 }
 
@@ -92,18 +79,6 @@ body
     border-color: rgb(255, 255, 255);
     content: "";
     z-index: 100;
-}
-
-.fillStyle
-{
-    width: 100%;
-    /* height: auto;*/
-    /*background-size: cover;*/
-    /*background-repeat: no-repeat;
-    background-position: center;
-    object-fit: cover;*/
-
-    background-position: center top;
 }
 
 /* ---- */
