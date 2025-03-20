@@ -332,7 +332,7 @@ let theElements =
 {
     name: 'Node.js Array of Objects',
     url: 'https://github.com/ChristopherTopalian/Topalian_Node.js/tree/main/Topalian_Node.js_001/array_of_objects',
-    textureOffline: 'src/media/textures/nodeJS_array_of_objects.jpg',
+    textureOffline: 'src/media/textures/nodejs_array_of_objects.jpg',
     textureOnline: 'https://m.media-amazon.com/images/I/71RAM0hv9XL._SL1500_.jpg', 
     number: 'JS',
     tag: 'js',
