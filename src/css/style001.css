@@ -1,0 +1,116 @@
+/* style001.css */
+
+body
+{
+    background-color: rgb(50, 50, 50);
+}
+
+.dedication
+{
+    position: relative;
+    padding-bottom: 10px;
+    font-family: arial;
+    font-size: 20px;
+    color: rgb(100, 100, 100);
+    display: flex;
+    flex-direction: column;
+    /* background-size: cover; */
+    align-items: center;
+    font-weight: bold;
+}
+
+.gridContainerStyle {
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    background-color: rgb(40, 40, 40);
+}
+
+.gridItemStyle {
+    width: 175px;
+    height: 175px;
+    padding: 5px;
+    margin: 5px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(255, 255, 255);
+    font-size: 30px;
+    text-align: center;
+}
+
+.gridItemStyle:hover
+{
+    cursor: pointer;
+}
+
+.theTitleStyle
+{
+    position: relative;
+    padding-bottom: 10px;
+    font-family: arial;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    /* background-size: cover; */
+    align-items: center;
+}
+
+.nameOfElement
+{
+    position: relative;
+    display: inline;
+}
+  
+.nameOfElement:hover:after
+{
+    position: absolute;
+    left: 5px;
+    bottom: 50px;
+    padding-left: 15px;
+    padding-right: 15px;
+    z-index: 98;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(255, 255, 255);
+    border-radius: 0px;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    content: attr(gloss);
+}
+
+/* marker icon, which appears when a person hovers their mouse arrow over a tile */
+.nameOfElement:hover:before
+{
+    position: absolute;
+    left: 50%;
+    top: 0px;
+    border-style: solid;
+    border-width: 0 5px 5px 5px transparent;
+    border-color: rgb(255, 255, 255);
+    content: "";
+    z-index: 100;
+}
+
+.fillStyle
+{
+    width: 100%;
+    /* height: auto;*/
+    /*background-size: cover;*/
+    /*background-repeat: no-repeat;
+    background-position: center;
+    object-fit: cover;*/
+
+    background-position: center top;
+}
+
+/* ---- */
+
+/* Dedicated to God the Father */
+/* All Rights Reserved Christopher Andrew Topalian Copyright 2000-2025 */
+/* https://github.com/ChristopherTopalian */
+/* https://github.com/ChristopherAndrewTopalian */
+/* https://sites.google.com/view/CollegeOfScripting */
+
