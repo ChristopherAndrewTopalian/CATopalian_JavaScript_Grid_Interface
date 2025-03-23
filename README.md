@@ -3,7 +3,7 @@ A JavaScript application that displays a grid of images that are links to other 
 
 USE APP: https://christopherandrewtopalian.github.io/CATopalian_JavaScript_Grid_Interface/CATopalian_JavaScript_Grid_Interface.html  
 
-![screenshot_001](src/media/textures/screenshots/001.PNG)  
+![screenshot_001](src/media/textures/screenshots/001.JPG)  
 
 If you enjoy my apps and tutorials please consider buying me a coffee at [paypal.me/keystonermarch](https://www.paypal.com/paypalme/keystonermarch)
 
