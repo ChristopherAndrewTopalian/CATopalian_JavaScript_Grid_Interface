@@ -7,6 +7,8 @@ function makeTiles(whichArray, rows, columns)
     theTitle.className = "theTitleStyle";
     theTitle.style.textAlign = 'center';
     theTitle.textContent = 'CATopalian JavaScript Grid Interface';
+    theTitle.style.fontWeight = 'bold';
+    theTitle.style.textDecoration = 'none';
     ba(theTitle);
 
     //-//
@@ -104,7 +106,7 @@ function makeTiles(whichArray, rows, columns)
 //----//
 
 // Dedicated to God the Father
-// All Rights Reserved Christopher Andrew Topalian Copyright 2000-2025
+// All Rights Reserved Christopher Andrew Topalian Copyright 2000-2026
 // https://github.com/ChristopherTopalian
 // https://github.com/ChristopherAndrewTopalian
 // https://sites.google.com/view/CollegeOfScripting
